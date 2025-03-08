@@ -93,7 +93,7 @@ h1 {
 }
 
 .formulario button {
-    background: #ff6600;
+    background: #3cf2b2;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -103,5 +103,58 @@ h1 {
 }
 
 .formulario button:hover {
-    background: #e65c00;
+    background: #0b8f76;
+}
+
+.modal-mensaje {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(64, 164, 141, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    max-width: 300px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.modal-contenido {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    color: #333;
+}
+
+.cerrar-modal {
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cerrar-modal:hover {
+    background: #ff4f4f;
+}
+
+/* Botón de curiosidad */
+.boton-curiosidad {
+    background: #4baa9eb0;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin: 20px auto;
+}
+
+.boton-curiosidad:hover {
+    background: #4baa9eb0;
 }
